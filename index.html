@@ -43,6 +43,7 @@
                     backgroundImage: {
                         vector: "url('./images/vector-img.png')",
                         formBg: "url('./images/bg.jpg')",
+                        challengeBg: "url('./images/challenge.jpg')",
                     },
                 },
             },
@@ -131,7 +132,7 @@
             <!-- design thoughtful section starts -->
             <section class="bg-baseColor">
 
-                <div class="w-11/12 lg:w-8/12 mx-auto py-5 lg:py-28 flex flex-col lg:flex-row justify-between items-center gap-9">
+                <div class="w-11/12 lg:w-8/12 mx-auto pt-5 lg:pt-28 flex flex-col lg:flex-row justify-between items-center gap-9">
                     <div class="flex-1 space-y-6 text-center lg:text-left">
                         <img src="./images/vector-img.png" alt="" class="hidden lg:block">
                         <h3 class="font-bold bg-white rounded-3xl inline-block py-1 px-3">
@@ -179,7 +180,7 @@
             <!-- Our Works Process section starts -->
             <section class="bg-baseColor">
 
-                <div class="w-11/12 lg:w-8/12 lg:w-8/12 mx-auto text-center py-6 lg:py-28">
+                <div class="w-11/12 lg:w-8/12 mx-auto text-center py-6 lg:py-28">
                     <h3 class="font-bold bg-white rounded-3xl inline-block py-1 px-3">
                         <i class="fa-solid fa-arrow-right mr-1"></i>How we work
                     </h3>
@@ -221,16 +222,74 @@
     
             </section>
                 <!-- Our Works Process section ends -->   
-                 
+
+                <!-- challenge section starts -->
+
+            <section class="relative">
+                <div class="bg-challengeBg bg-no-repeat bg-cover bg-center w-full h-[470px] absolute left-0 top-0">
+                    <span class="bg-[rgba(0,0,0,.3)] block w-full h-full"></span>
+                </div>
+                <div class="w-11/12 lg:w-8/12 mx-auto">
+
+                    <div class="relative z-50 py-24">
+                        <h3 class="text-white">
+                            SERVICES
+                        </h3>
+                        <h2 class="text-2xl lg:text-5xl text-white font-bold pt-4">
+                            Our challenges.
+                        </h2>                        
+                    </div>
+
+                      <!-- card section  -->
+                    <div class="flex flex-col lg:flex-row gap-8 relative z-50">
+                            <!-- card-1 -->
+                        <div class="bg-white p-16 text-center space-y-7 shadow-2xl">
+                            <i class="fa-regular fa-lightbulb text-4xl"></i>
+                            <h3 class="text-4xl font-extrabold">Planning</h3>
+                            <p>Our master plans provide a comprehensive look at where an organization is today.</p>
+                            <button class="w-full md:w-auto text-xl text-headingColor font-bold border border-primaryColor py-1 px-3 rounded-[32px] bg-[rgba(171,239,95,0.5)] min-w-52">
+                                View Details
+                                <i class="fa-solid fa-arrow-right bg-primaryColor p-2.5 rounded-full -rotate-45 ml-2"></i>
+                            </button>
+                        </div>
+
+                            <!-- card-2 -->
+                            <div class="bg-white p-16 text-center space-y-7 shadow-2xl">
+                                <i class="fa-regular fa-heart text-4xl"></i>
+                                <h3 class="text-4xl font-extrabold">Interior</h3>
+                                <p>Our master plans provide a comprehensive look at where an organization is today.</p>
+                                <button class="w-full md:w-auto text-xl text-headingColor font-bold border border-primaryColor py-1 px-3 rounded-[32px] bg-[rgba(171,239,95,0.5)] min-w-52">
+                                    View Details
+                                    <i class="fa-solid fa-arrow-right bg-primaryColor p-2.5 rounded-full -rotate-45 ml-2"></i>
+                                </button>
+                            </div>  
+                            
+                            <!-- card-3 -->
+                            <div class="bg-white p-16 text-center space-y-7 shadow-2xl">
+                                <i class="fa-regular fa-square-full text-4xl"></i>
+                                <h3 class="text-4xl font-extrabold">Lighting</h3>
+                                <p>Our master plans provide a comprehensive look at where an organization is today.</p>
+                                <button class="w-full md:w-auto text-xl text-headingColor font-bold border border-primaryColor py-1 px-3 rounded-[32px] bg-[rgba(171,239,95,0.5)] min-w-52">
+                                    View Details
+                                    <i class="fa-solid fa-arrow-right bg-primaryColor p-2.5 rounded-full -rotate-45 ml-2"></i>
+                                </button>
+                            </div>                          
+
+                    </div>
+                    
+                </div>
+            </section>
+                <!-- challenge section ends -->
+
             <!-- Our Latest Portfolio section starts-->
-            <section class="lg:bg-[#ffe9b4] py-8 lg:py-28">
+            <section class="lg:bg-white mt-16 py-8 lg:py-28">
 
                 <div class="lg:w-8/12 mx-auto text-center">
     
                     <h3 class="font-bold bg-[rgba(171,239,95,0.2)] rounded-3xl inline-block py-1 px-3">
                         <i class="fa-solid fa-arrow-right mr-1"></i>Explore our Latest works
                     </h3>
-                    <h2 class="text-2xl lg:text-5xl text-headingColor font-bold pt-4 pb-6 textbl text-b text-black-stroke">
+                    <h2 class="text-2xl lg:text-5xl text-headingColor font-bold pt-4 pb-6 text-black-stroke">
                         Our Latest Portfolio
                     </h2>
                     <p class="w-11/12 lg:w-6/12 mx-auto mb-8">
