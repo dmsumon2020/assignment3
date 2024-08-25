@@ -103,10 +103,10 @@
                         </div>   
 
                         <div class="justify-end space-x-5 hidden lg:flex">
-                            <span class="inline-block bg-white w-[32px] h-[32px] text-center rounded-full leading-8"><i class="fa-solid fa-magnifying-glass text-[#737373]"></i></span>  
-                            <span class="inline-block bg-white w-[32px] h-[32px] text-center rounded-full leading-8"><i class="fa-solid fa-cart-shopping text-[#737373]"></i></span>
+                            <span class="inline-block bg-white w-[32px] h-[32px] text-center rounded-full leading-8 hover:cursor-pointer transition-opacity duration-500 ease-in-out hover:opacity-60"><i class="fa-solid fa-magnifying-glass text-[#737373]"></i></span>  
+                            <span class="inline-block bg-white w-[32px] h-[32px] text-center rounded-full leading-8 hover:cursor-pointer transition-opacity duration-500 ease-in-out hover:opacity-60"><i class="fa-solid fa-cart-shopping text-[#737373]"></i></span>
                     
-                            <button type="submit" class="bg-primaryColor text-sm font-extrabold text-[#1C1C1C] py-2 px-4 rounded-[32px] focus:outline-none">Book Consult
+                            <button type="submit" class="bg-primaryColor text-sm font-extrabold text-[#1C1C1C] py-2 px-4 rounded-[32px] focus:outline-none transition-opacity duration-500 ease-in-out hover:opacity-60">Book Consult
                                 <span class="bg-[#1c1c1c] rounded-full -rotate-45 ml-2 inline-block w-[20px] h-[20px] text-white"><i class="fa-solid fa-arrow-right text-xs"></i></span>
                             </button>
                         </div>
@@ -378,29 +378,27 @@
                             <form action="#" method="" class="space-y-4">
     
                                 <div class="grid gap-4 lg:grid-cols-2 lg:gap-6">
-                                        <input type="text" id="firstName" name="firstName" required placeholder="First Name*" class="mt-1 block px-3 py-4 border border-[#E9E9E9] rounded-[84px] focus:outline-none">
+                                        <input type="text" id="firstName" name="firstName" required placeholder="First Name*" class="mt-1 block p-4 border border-[#E9E9E9] rounded-[84px] focus:outline-none">
     
-                                        <input type="text" id="lastName" name="lastName" required placeholder="Last Name*" class="mt-1 block px-3 py-4 border border-[#E9E9E9] rounded-[84px] focus:outline-none">
+                                        <input type="text" id="lastName" name="lastName" required placeholder="Last Name*" class="mt-1 block p-4 border border-[#E9E9E9] rounded-[84px] focus:outline-none">
                                 </div>
     
                                 <div class="grid gap-4 lg:grid-cols-2 lg:gap-6">
     
-                                    <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Phone Number*" class="mt-1 block px-3 py-4 border border-[#E9E9E9] rounded-[84px] focus:outline-none">
+                                    <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="Phone Number*" class="mt-1 block  p-4 border border-[#E9E9E9] rounded-[84px] focus:outline-none">
     
     
-                                    <input type="email" id="email" name="email" required placeholder="Email Address*" class="mt-1 block px-3 py-4 border border-[#E9E9E9] rounded-[84px] focus:outline-none">
+                                    <input type="email" id="email" name="email" required placeholder="Email Address*" class="mt-1 block p-4 border border-[#E9E9E9] rounded-[84px] focus:outline-none">
     
                                 </div>
     
                                 <div>
-                                    <textarea id="message" name="message" rows="10" placeholder="Write your message here" class="mt-1 block w-full px-3 py-4 border border-[#E9E9E9] rounded-[32px] focus:outline-none"></textarea>
+                                    <textarea id="message" name="message" rows="10" placeholder="Write your message here" class="mt-1 block w-full p-4 border border-[#E9E9E9] rounded-[32px] focus:outline-none"></textarea>
                                 </div>
     
                                 <button type="submit" class="w-full bg-primaryColor text-xl font-extrabold text-[#1C1C1C] py-2 px-4 rounded-[32px] focus:outline-none transition-opacity duration-500 ease-in-out hover:opacity-60">
-                                    Send Mail 
-                                    <span class="bg-[#1c1c1c] rounded-full -rotate-45 ml-2 inline-block w-[30px] h-[30px] text-white">
-                                        <i class="fa-solid fa-arrow-right text-lg"></i>
-                                    </span>
+                                    Send Mail
+                                    <i class="fa-solid fa-arrow-right bg-[#1c1c1c] text-white rounded-full w-8 h-8 leading-8 -rotate-45 ml-1"></i>
                                 </button>
                             </form>                        
                         </div>
@@ -419,22 +417,26 @@
             <footer class="bg-[#1C1C1C]">
                 <div class="w-11/12 lg:w-8/12 mx-auto py-10 lg:py-16 lg:py-28 text-center">
                     <div>
-                        <i class="fa-solid fa-arrow-right bg-primaryColor p-1 rounded-full -rotate-45 ml-2"></i>  
-                        <a class="btn btn-ghost text-xl pl-1 font-extrabold text-white">Rinterio</a>
+                        <a class="text-xl font-extrabold text-white">
+                            <i class="fa-solid fa-arrow-right bg-primaryColor text-[#1C1C1C] rounded-full w-8 h-8 leading-8 -rotate-45 mr-1"></i>
+                            Rinterio
+                        </a>
                     </div>   
                     <p class="text-[#737373] pt-4 lg:w-7/12 mx-auto">
                         The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                     </p> 
                     <ul class="text-[#E9E9E9] p-12 flex flex-col lg:flex-row justify-center gap-x-28 gap-y-4">
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Portfolio</li>
-                        <li>Blogs</li>
-                        <li>Contact Us</li>                    
-                    </ul>      
-                    <button type="submit" class="bg-primaryColor text-sm font-extrabold text-[#1C1C1C] py-2 px-4 rounded-[32px] focus:outline-none transition-opacity duration-500 ease-in-out hover:opacity-60">Book Consult
-                        <span class="bg-[#1c1c1c] rounded-full -rotate-45 ml-2 inline-block w-[20px] h-[20px] text-white"><i class="fa-solid fa-arrow-right text-xs"></i></span>
-                    </button>      
+                        <li><a href="#" class="transition-color duration-300 ease-in-out hover:text-primaryColor">Home</a></li>
+                        <li><a href="#" class="transition-color duration-300 ease-in-out hover:text-primaryColor">Services</a></li>
+                        <li><a href="#" class="transition-color duration-300 ease-in-out hover:text-primaryColor">Portfolio</a></li>
+                        <li><a href="#" class="transition-color duration-300 ease-in-out hover:text-primaryColor">Blogs</a></li>
+                        <li><a href="#" class="transition-color duration-300 ease-in-out hover:text-primaryColor">Contact Us</a></li>                    
+                    </ul>       
+                    <button class="w-full md:w-auto text-xl text-headingColor font-extrabold border border-primaryColor py-3 px-7 rounded-[32px] bg-primaryColor min-w-52 transition-opacity duration-500 ease-in-out hover:opacity-60">
+                        Book Consult
+                        <i class="fa-solid fa-arrow-right text-white bg-[#1c1c1c] p-2.5 rounded-full -rotate-45 ml-2"></i>
+                    </button>   
+
                 </div>
             </footer>
             <!-- footer section ends  -->        
